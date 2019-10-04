@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+    /* border:1px solid black; */
+}
+
+body {
+    margin:0 auto;
+    width: 875px;
+    line-height: 1;
+    /* border: 1px solid red; */
+}
+
+header{
+    display: flex;
+    /* border:1px dashed black; */
+    margin:30px 0;
+}
+
+header img{
+    margin-top:5px;
+    padding-left: 33px;
+}
+
+header nav{
+    display: flex;
+    font-size: 20px;
+    margin:0 10px;
+    justify-content: space-evenly;
+    /* border:1px dashed black; */
+}
+
+header a{
+    padding-top:15px;
+    margin:15px 35px;
+    color: black;
+    text-decoration: none;
+    /* border:1px dashed black; */
+}
+
+.top-img{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.about{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom:1px dashed black;
+    padding:0 20px;
+    padding-bottom:30px;
+    margin:0 40px;
+    margin-bottom:15px;
+}
+
+.top-Mid{
+    display:flex;
+    /* border:1px dashed blue; */
+}
+
+.text-container{
+    display:flex;
+    flex-direction:column;
+    border-bottom:1px dashed black;
+    padding-bottom:15px;
+    margin: 15px 20px;
+
+}
+
+.text-container h2{
+    margin:15px 0;
+}
+
+.text-container p{
+    font-size:17px
+}
+
+button{
+    display: flex;
+    font-size: 20px;
+	border:1px solid black;
+	border-radius: 10px;
+    padding:10px 0;
+    padding-left:20px;
+    margin: 10px 0;
+    margin-right:250px;
+	background: white;
+}
+
+.bot-Mid{
+    display:flex;
+    /* border:1px dashed hotpink; */
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.bottom{
+    display:flex;
+    flex-direction: column;
+    margin:15px 20px;
+    /* border:1px dashed blue;  */
+}
+
+footer {
+    width: 100%;
+    background: black;
+    margin-top:30px;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
